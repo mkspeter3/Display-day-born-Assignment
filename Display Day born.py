@@ -1,9 +1,9 @@
-     #   Mukasa Peter
+      #   Mukasa Peter     [16/U/671]      B. Electrical engineering
 
 
-import calendar
+import datetime,calendar
 
-cur_year = 2017
+cur_year = int(datetime.date.today().strftime('%Y'))
 
 date = input("Enter birth date (1-31)\n")
 
